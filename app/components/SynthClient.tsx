@@ -24,6 +24,8 @@ interface AirQualityData {
     parameter: string;
     coordinates: { latitude: number; longitude: number } | null;
   }>;
+  lat: number;
+  lon: number;
 }
 
 const AirQualitySynthesizer: React.FC = () => {
@@ -71,6 +73,8 @@ const AirQualitySynthesizer: React.FC = () => {
             ...data,
             location: "Current Location",
             lastUpdated: new Date().toLocaleTimeString(),
+            lat,
+            lon,
           });
           setError(null);
         }

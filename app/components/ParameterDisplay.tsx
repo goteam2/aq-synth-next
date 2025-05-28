@@ -46,6 +46,13 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
               <div className="text-white font-medium">
                 {airQualityData.location}
               </div>
+              {airQualityData.lat !== undefined &&
+                airQualityData.lon !== undefined && (
+                  <div className="text-gray-400 text-xs">
+                    Lat: {airQualityData.lat.toFixed(5)}, Lon:{" "}
+                    {airQualityData.lon.toFixed(5)}
+                  </div>
+                )}
               <div className="text-gray-400 text-sm">
                 Updated {airQualityData.lastUpdated}
               </div>

@@ -14,4 +14,6 @@ export interface AirQualityData {
     parameter: string;
     coordinates: { latitude: number; longitude: number } | null;
   }>;
+  lat?: number;
+  lon?: number;
 }
