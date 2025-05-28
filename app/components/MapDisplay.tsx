@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-export default function MapClient({
+export default function MapDisplay({
   userLocation,
   sensors = [],
 }: {
