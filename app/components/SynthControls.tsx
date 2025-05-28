@@ -76,6 +76,7 @@ const SynthControls: React.FC<SynthControlsProps> = (props) => {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between gap-2 w-full">
+        <Activity className="w-5 h-5 text-blue-400" />
         <h3 className="text-lg font-semibold text-white flex items-center gap-2">
           Synth Params
         </h3>
@@ -103,7 +104,6 @@ const SynthControls: React.FC<SynthControlsProps> = (props) => {
           className="w-48"
         />
       </div>
-      <Activity className="w-5 h-5 text-blue-400" />
 
       <div className="flex flex-col lg:flex-row gap-4">
         {/* ADSR Envelope */}
@@ -333,11 +333,11 @@ const SynthControls: React.FC<SynthControlsProps> = (props) => {
       </div>
 
       {/* Waveform Visual Placeholder */}
-      <div className="h-32 bg-gray-900/50 rounded-lg border border-gray-700 p-4 flex items-center justify-center">
+      {/* <div className="h-32 bg-gray-900/50 rounded-lg border border-gray-700 p-4 flex items-center justify-center">
         <div className="w-full h-full bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded flex items-center justify-center">
           <div className="text-gray-400 text-sm">Waveform Visualization</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

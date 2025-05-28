@@ -82,7 +82,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">PM2.5</div>
                   <div className="text-xs text-gray-400">Fine Particles</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.pm25}
                   </div>
@@ -101,7 +101,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">PM10</div>
                   <div className="text-xs text-gray-400">Coarse Particles</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.pm10}
                   </div>
@@ -115,7 +115,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">NO₂</div>
                   <div className="text-xs text-gray-400">Nitrogen Dioxide</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.no2}
                   </div>
@@ -129,7 +129,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">O₃</div>
                   <div className="text-xs text-gray-400">Ozone</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.o3}
                   </div>
@@ -143,7 +143,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">SO₂</div>
                   <div className="text-xs text-gray-400">Sulfur Dioxide</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.so2}
                   </div>
@@ -157,7 +157,7 @@ const ParameterDisplay: React.FC<ParameterDisplayProps> = ({
                   <div className="text-white font-medium">CO</div>
                   <div className="text-xs text-gray-400">Carbon Monoxide</div>
                 </div>
-                <div className="text-right">
+                <div className="text-right flex items-center gap-2">
                   <div className="text-white font-bold">
                     {airQualityData.co}
                   </div>
