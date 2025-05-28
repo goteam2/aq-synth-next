@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { Slider } from "@/components/ui/slider";
-import { Button } from "@/components/ui/button";
+import { Slider } from "../components/ui/slider";
+import { Button } from "../components/ui/button";
 import {
   Volume2,
   Play,
@@ -12,7 +12,7 @@ import {
   Shuffle,
   Activity,
 } from "lucide-react";
-import { ArpMode } from "@/types/air-quality";
+import { ArpMode } from "../types/air-quality";
 
 interface SynthControlsProps {
   volume: number[];

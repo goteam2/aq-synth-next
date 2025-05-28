@@ -1,9 +1,14 @@
 "use client";
 import React from "react";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+} from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
 import { Wind, Activity } from "lucide-react";
-import { AirQualityData } from "@/types/air-quality";
+import { AirQualityData } from "../types/air-quality";
 
 interface ParameterDisplayProps {
   airQualityData: AirQualityData | null;
